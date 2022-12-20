@@ -1,3 +1,4 @@
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 # MumfordShahCuda
 
 This repository contains an implementation based on the paper:  
@@ -167,3 +168,27 @@ We provide examples for running the executable as well as how to run the code in
     then build the mex file with the `EXEF=FALSE` option.
 
 * If Matlab keeps crashing: Check if you use `clear all` somewhere in your Matlab code. Exchange it with `clear`.
+
+
+## Citation
+If you make use of the library in any form in a scientific publication, please refer to `https://github.com/BjoernHaefner/MumfordShahCuda` and cite following papers
+
+```
+@inproceedings{strekalovskiy2014realtime,
+ author = {E. Strekalovskiy and D. Cremers},
+ title = {{Real-Time Minimization of the Piecewise Smooth Mumford-Shah Functional}},
+ booktitle = {European Conference on Computer Vision (ECCV)},
+ year = {2014},
+ pages = {127-141},
+ keywords = {convex-relaxation},
+}
+```
+```
+@inproceedings{haefner2018fight,
+ title = {{Fight ill-posedness with ill-posedness: Single-shot variational depth super-resolution from shading}},
+ author = {B. Haefner and Y. Quéau and T. Möllenhoff and D. Cremers},
+ booktitle = {I{EEE}/{CVF} {C}onference on {C}omputer {V}ision and {P}attern {R}ecognition (CVPR)},
+ year = {2018},
+ keywords = {rgb-d,reconstruction,3d-reconstruction,photometry,variational,super-resolution,photometricdepthsr},
+}
+```
